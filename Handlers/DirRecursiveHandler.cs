@@ -29,7 +29,7 @@ namespace SaveUtf8Srt.Handlers
                 ProcessDirs(innerDirs);
                 foreach (var dir in innerDirs)
                 {
-                    RecusiveSearch(dir);
+                    DoRecusiveSearch(dir);
                 }
             }
 
